@@ -10,13 +10,7 @@ import (
 	"github.com/mattn/go-shellwords"
 )
 
-func isSpace(r byte) bool {
-	switch r {
-	case ' ', '\t', '\r', '\n':
-		return true
-	}
-	return false
-}
+func isSpace(r byte) bool { _ = "STUB: not implemented"; return false }
 
 func main() {
 	line := `
